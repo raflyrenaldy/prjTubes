@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjTubes", "Assembly-CSharp.csproj", "{CDA5AFD4-D138-7FD2-CF48-FDC73A2576AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA5AFD4-D138-7FD2-CF48-FDC73A2576AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA5AFD4-D138-7FD2-CF48-FDC73A2576AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA5AFD4-D138-7FD2-CF48-FDC73A2576AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA5AFD4-D138-7FD2-CF48-FDC73A2576AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
