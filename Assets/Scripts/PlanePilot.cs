@@ -1,13 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Collections;
+using UnityEngine.UI;
 public class PlanePilot : MonoBehaviour {
-	
+
+	private int Count;
+	public Text countText;
 	public float speed = 90.0f;
+	private Rigidbody rb;
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("plane pilot script added to: " + gameObject.name);
+		Count = 0;
+
 	}
 	
 	// Update is called once per frame
@@ -50,5 +56,14 @@ public class PlanePilot : MonoBehaviour {
 		if (transform.position.x > 2050f) {
 			FindObjectOfType<GameManager> ().EndGame ();
 		}
+	}
+	void onTriggeredEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("Coin")) {
+			other.gameObject.SetActive (false);
+			Count = Count + 1;
+			countText.text = "Score :  " + Count.ToString ();
+		}
+
 	}
 }

@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Timer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlanePilot.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlanePilot.cs" Line="47" Column="38" />
+      <File FileName="Assets\PointScript.cs" Line="3" Column="19" />
+      <File FileName="Assets\Scripts\PlanePilot.cs" Line="50" Column="38" />
       <File FileName="Assets\FighterInterceptor\Script\FighterSurfacesControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\DetectCollision.cs" Line="1" Column="1" />
-      <File FileName="Assets\PindahScene.cs" Line="8" Column="1" />
-      <File FileName="Assets\Timer.cs" Line="20" Column="22" />
-      <File FileName="Assets\GameManager.cs" Line="23" Column="64" />
+      <File FileName="Assets\GameManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\Unity Project\LabirinProject\Assets\Script\PlayerScipt.cs" Line="26" Column="71" />
+      <File FileName="Assets\Scripts\SpinningCoin.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
