@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 public class PlanePilot : MonoBehaviour {
 
 	private int Count;
 	public Text countText;
-	public float speed = 90.0f;
+	public float speed = 1.0f;
 	private Rigidbody rb;
 	// Use this for initialization
 	void Start () {
@@ -24,7 +23,7 @@ public class PlanePilot : MonoBehaviour {
 										 moveCamTo * (1.0f - bias);
 		Camera.main.transform.LookAt (transform.position + transform.forward * 30.0f);
 		transform.position += transform.forward * Time.deltaTime * speed;
-		speed -= transform.forward.y * Time.deltaTime * 50.0f;
+		speed -= transform.forward.y * Time.deltaTime * speed;
 
 		if (speed < 35.0f) {
 			speed = 35.0f;
@@ -57,13 +56,15 @@ public class PlanePilot : MonoBehaviour {
 			FindObjectOfType<GameManager> ().EndGame ();
 		}
 	}
-	void onTriggeredEnter(Collider other)
-	{
-		if (other.gameObject.CompareTag("Coin")) {
-			other.gameObject.SetActive (false);
-			Count = Count + 1;
-			countText.text = "Score :  " + Count.ToString ();
-		}
 
+
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("Coin"))
+		{
+			other.gameObject.SetActive(false);
+			Count = Count + 1;
+			countText.text = "Score :  " + Count.ToString();
+		}
 	}
 }

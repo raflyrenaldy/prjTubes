@@ -2,12 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlanePilot.cs">
     <Files>
-      <File FileName="Assets\PointScript.cs" Line="3" Column="19" />
-      <File FileName="Assets\Scripts\PlanePilot.cs" Line="50" Column="38" />
+      <File FileName="Assets\PointScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlanePilot.cs" Line="18" Column="18" />
       <File FileName="Assets\FighterInterceptor\Script\FighterSurfacesControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\GameManager.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\..\Unity Project\LabirinProject\Assets\Script\PlayerScipt.cs" Line="26" Column="71" />
+      <File FileName="Assets\GameManager.cs" Line="13" Column="3" />
+      <File FileName="..\..\..\..\Unity Project\LabirinProject\Assets\Script\PlayerScipt.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SpinningCoin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Jet\FIxing.cs" Line="97" Column="2" />
+      <File FileName="Assets\Scripts\DetectCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets\FacebookManager.cs" Line="26" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
